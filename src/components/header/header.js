@@ -1,11 +1,11 @@
 import Navbar from "../navbar/navbar";
 
-export default function Header() {
+export default function Header(props) {
     return (
         
         <>
             <nav>
-                <p>Crud ReactJs</p>
+                <p>{props.titulo}</p>
                 <Navbar/>
             </nav>
         </>
