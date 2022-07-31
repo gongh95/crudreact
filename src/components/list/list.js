@@ -1,4 +1,4 @@
-export default function List(props) {
+export default function List({ users }) {
     return (
     <section>
         <table>
@@ -12,7 +12,7 @@ export default function List(props) {
                 </tr>
             </thead>
             <tbody>
-                {props.users.map((user) => {
+                {users.map(user => {
                     return (
                     <tr key={`${user.id}_${user.nombre}`}>{/* ID + Nombre para key*/}
                         <td>{user.id}</td>

@@ -12,6 +12,13 @@ const usuarios = [
       apellido: "Rossii",
       direccion: "Direccion falsa 321",
       telefono: "123-456789"
+    },
+    {
+      id: 3,
+      nombre: "Chop",
+      apellido: "Rossi",
+      direccion: "Direccion perruna 123",
+      telefono: "No tiene"
     }
     ];
 
