@@ -2,8 +2,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Form() {
-
-    const url = "http://localhost:3030/users/agregar";
+    
+    const url = "https://whispering-dawn-56704.herokuapp.com/users/agregar";
 
     const [formulario, setFormulario] = useState(
         {

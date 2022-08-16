@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function List() {
 
-    const url = "http://localhost:3030/users";
+    const url = "https://whispering-dawn-56704.herokuapp.com/users";
 
     const [users, setUsers] = useState([]);
     const [error, setError] = useState(false);
